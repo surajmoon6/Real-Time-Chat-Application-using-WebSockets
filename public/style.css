@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  color: #2d2d2d;
+  margin-bottom: 20px;
+}
+
+.main {
+  width: 400px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: #555;
+  border-bottom: 1px solid #ddd;
+}
+
+.name-input {
+  flex-grow: 1;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: #fdfdfd;
+}
+
+.message-left,
+.message-right {
+  list-style: none;
+  max-width: 75%;
+  margin: 10px;
+  padding: 12px;
+  font-size: 16px;
+  word-break: break-word;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.message-left {
+  align-self: flex-start;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.message-right {
+  align-self: flex-end;
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+.message-left > p > span,
+.message-right > p > span {
+  display: block;
+  font-size: 12px;
+  margin-top: 4px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.message-form {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ddd;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 12px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.send-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0 16px;
+  height: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.v-divider {
+  width: 1px;
+  height: 100%;
+  background-color: #ddd;
+}
+
+.feedback {
+  text-align: center;
+  padding: 8px;
+  font-style: italic;
+  color: #888;
+  font-size: 14px;
+}
+
+.clients-total {
+  margin-top: 20px;
+  color: #555;
+  font-size: 16px;
+}
