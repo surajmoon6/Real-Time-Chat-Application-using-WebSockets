@@ -42,6 +42,6 @@ chat-websocket/ │
    ```bash
    git clone https://github.com/surajmoon6/Real-Time-Chat-Application-using-WebSockets.git
    cd Real-Time-Chat-Application-using-WebSockets
-Install dependencies:
+
 
 
